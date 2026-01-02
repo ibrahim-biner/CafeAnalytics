@@ -66,7 +66,7 @@ The operation of CafeAnalytics is divided into two distinct phases: Spatial Conf
 
 ### Phase 1: Spatial Mapping (Table ROI Selection)
 
-Before starting the analysis, the system must learn the physical boundaries of the tables in the camera's field of view.
+Before starting the analysis, the system must learn the physical boundaries of the tables in the camera s field of view.
 
 **Launch the Configuration Tool:**
 
@@ -83,7 +83,7 @@ python src/roi_selector.py
 
 **Labeling and Saving:**
 
-- **'N' (New)**: Press 'N' to finish a polygon. You will be prompted in the terminal to enter a name (e.g., Table-1).
+- **'N' (New)**: Press 'N' to finish a polygon. You will be prompted in the terminal to enter a name (Table-1).
 - **'S' (Save)**: Once all tables are defined, press 'S' to export the mapping to `src/config.json`.
 - **'C' (Clear)**: Press 'C' if you need to reset the current points.
 
@@ -103,7 +103,7 @@ python main.py
 
 - **Tracking IDs**: Every detected customer is assigned a unique ID.
 - **State Labels**: The display will show whether a customer is "Walking" or currently at a specific table (e.g., "ID:5 | Table-2").
-- **Occupancy Counter**: A summary panel at the top displays real-time customer counts and table occupancy ratios (e.g., Occupied Tables: 3/6).
+- **Occupancy Counter**: A summary panel at the top displays real-time customer counts and table occupancy ratios (Occupied Tables: 3/6).
 
 ### Phase 3: Reviewing Generated Intelligence
 
@@ -154,7 +154,7 @@ To monitor specific areas, we transitioned from standard rectangular bounding bo
 
 Traditional tracking often uses the center of a bounding box, which fails when a customer's lower body is obscured by a table. Our solution utilizes **YOLOv11-Pose** to compute a stable "Abdomen-Level" reference point.
 
-- **Model**: We utilize `yolo11m-pose.pt`, which identifies 17 human joints (keypoints).
+- **Model**: We utilize `yolo11m-pose.pt`, which identifies 17 human joints.
 - **Torso Computation**: The system identifies the left shoulder (S_L) and right shoulder (S_R).
 - **Abdomen Projection**: To find the optimal point for table interaction, we calculate the midpoint and apply a **25% vertical offset** relative to the bounding box height.
 
@@ -167,7 +167,7 @@ The system integrates **ByteTrack** for high-performance object association with
 
 **Custom Parameter Selection:**
 
-- **`track_high_thresh` (0.5) / `track_low_thresh` (0.1)**: This dual-thresholding allows the system to maintain tracks even for "low-score" detections (e.g., a person mostly hidden behind a chair).
+- **`track_high_thresh` (0.5) / `track_low_thresh` (0.1)**: This dual-thresholding allows the system to maintain tracks even for "low-score" detections.
 - **`track_buffer` (150)**: We set the buffer to 150 frames. At 30 FPS, this equals **5 seconds**. This value was chosen to ensure that a customer who is momentarily blocked by a passing waiter is not assigned a new ID.
 - **`match_thresh` (0.8)**: A high matching threshold ensures that associations are only made when there is a strong spatial overlap or motion consistency.
 
@@ -175,7 +175,7 @@ The system integrates **ByteTrack** for high-performance object association with
 
 To achieve graduation-level precision, we implemented a custom stabilization layer in `analyzer.py`.
 
-- **Ghost ID Memory**: When an ID is lost, it is stored in a **Ghost State** for a Time-to-Live (TTL) of **5.0 seconds**.
+- **Ghost ID Memory**: When an ID is lost, it is stored in a **Ghost State** for a Time-to-Live of **5.0 seconds**.
 - **Multi-Factor Merging**: If a new detection appears, the system checks multiple criteria before merging it with a Ghost ID:
   - **Distance**: Must be within **60 pixels**.
   - **Velocity Consistency**: The system compares the previous motion vector with the current one using a dot product; if the direction change is too abrupt (cosine angle < 0.5), the merge is rejected.
@@ -197,7 +197,7 @@ The system generates a spatial density map to visualize cafe traffic.
 
 ### 7. Real-Time Visualization & Rendering
 
-- **Bounding Boxes**: Rendered with ID and current state (e.g., "Walking" or table name).
+- **Bounding Boxes**: Rendered with ID and current state ("Walking" or table name).
 - **Visual Anchors**: A **Yellow Point** is drawn at the stomach level to show the exact point used for ROI collision detection.
 - **Information Panel**: A top-left dashboard displays the current customer count and a "Dolu/Boş" ratio for the tables.
 
@@ -210,7 +210,7 @@ The development of **CafeAnalytics** involved overcoming several technical hurdl
 * **The Challenge**: In a dense cafe environment, customers frequently pass in front of each other or behind furniture, causing the tracking algorithm to lose the original ID and assign a new one upon reappearance.
 * **Attempted Solution (Re-ID)**: We initially explored **BoT-SORT with Re-ID** (Appearance-based Re-identification) to match identities. However, Re-ID models proved computationally heavy and often failed due to similar clothing colors among different customers.
 * **Current Engineering Solution**: We moved to a "geometry and motion" first approach using **ByteTrack** with a high `track_buffer` (150 frames/5 seconds) to maintain identity through short occlusions.
-* **Advanced Stabilization**: We implemented a custom **Ghost ID Memory** and **Patience Mechanism**. If a track is lost, the system holds its state for 5 seconds and attempts to merge it with new detections based on spatial proximity (60 pixels) and velocity consistency.
+* **Advanced Stabilization**: We implemented a custom **Ghost ID Memory** and **Patience Mechanism**. If a track is lost, the system holds its state for 5 seconds and attempts to merge it with new detections based on spatial proximity and velocity consistency.
 
 ### 2. Table-Height Occlusion and ROI Mapping
 * **The Challenge**: Standard bounding box centers or foot-point tracking became useless once a customer sat at a table, as their lower body disappeared from the camera's view.
@@ -219,7 +219,7 @@ The development of **CafeAnalytics** involved overcoming several technical hurdl
 
 ### 3. Future Outlook: Instance Segmentation
 * **Limitation**: While Polygon ROIs are highly accurate for flat surfaces, they do not perfectly capture the 3D interaction between a human and a chair/table.
-* **Potential Solution**: We considered moving toward **Instance Segmentation** (Masking). Using masks instead of boxes would allow for pixel-level intersection checks between the person and the table, further reducing "false seating" events currently managed by the **4.0s Duration Threshold**.
+* **Potential Solution**: We considered moving toward **Instance Segmentation**. Using masks instead of boxes would allow for pixel-level intersection checks between the person and the table, further reducing "false seating" events currently managed by the **4.0s Duration Threshold**.
 
 ---
 
@@ -240,14 +240,14 @@ The initial configuration step where table boundaries are manually mapped using 
 
 ### 2. Real-Time Video Processing
 The live analysis engine in action, displaying unique tracking IDs, pose-based torso reference points (yellow dots), and real-time occupancy labels.
-![Real-Time Processing](outputs/processing_screen.png)
+![Real-Time Processing](outputs/processing_example.png)
 
 ### 3. Spatial Heatmap
 A density map generated at the conclusion of the video using the `JET` colormap. Red zones indicate high-traffic seating areas, while Blue zones represent low-activity regions.
 ![Spatial Heatmap](outputs/1_heatmap.png)
 
 ### 4. Analytical Dashboard
-A comprehensive 4-quadrant visual report generated via Matplotlib. This includes table usage bar charts, preference distribution pie charts, stay-time histograms, and general occupancy statistics.
+A comprehensive 4-quadrant visual report generated via Matplotlib. This includes table usage bar charts, preference distribution pie charts, stay-time histograms, and general occupancy statistics.In the table use time graph, the total sitting time of individual people is taken as the total sitting time at the table.
 ![Analytical Dashboard](outputs/2_dashboard_analiz.png)
 
 ### 5. Detailed Activity Logs
