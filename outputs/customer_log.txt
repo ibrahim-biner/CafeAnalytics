@@ -1,0 +1,591 @@
+CUSTOMER RECORDS
+Customer ID: 001
+  - First Seen: 00:00:00
+  - Last Seen: 00:03:01
+  - Total Appearance Time: 3m 1s
+  - Table Usage:
+    * 0: 2m 57s (00:00:00 - 00:02:57)
+  - Status: Left
+
+Customer ID: 002
+  - First Seen: 00:00:00
+  - Last Seen: 00:03:27
+  - Total Appearance Time: 3m 27s
+  - Table Usage:
+    * 2: 0m 20s (00:00:00 - 00:00:20)
+    * 2: 0m 9s (00:00:21 - 00:00:30)
+    * 2: 1m 50s (00:00:33 - 00:02:23)
+    * 2: 0m 23s (00:02:23 - 00:02:47)
+    * 0: 0m 11s (00:02:51 - 00:03:02)
+    * 2: 0m 29s (00:03:02 - 00:03:32)
+  - Status: Left
+
+Customer ID: 003
+  - First Seen: 00:00:00
+  - Last Seen: 00:04:17
+  - Total Appearance Time: 4m 17s
+  - Table Usage:
+    * 1: 0m 51s (00:00:00 - 00:00:51)
+    * 3: 0m 19s (00:00:52 - 00:01:11)
+    * 3: 0m 18s (00:01:12 - 00:01:30)
+    * 3: 0m 10s (00:01:34 - 00:01:45)
+    * 3: 1m 8s (00:01:48 - 00:02:57)
+    * 2: 0m 5s (00:02:57 - 00:03:02)
+    * 3: 0m 11s (00:03:18 - 00:03:29)
+    * 3: 0m 4s (00:03:30 - 00:03:35)
+    * 3: 0m 8s (00:03:36 - 00:03:45)
+    * 2: 0m 4s (00:03:48 - 00:03:52)
+    * 3: 0m 8s (00:03:58 - 00:04:06)
+    * 2: 0m 12s (00:04:09 - 00:04:22)
+  - Status: Left
+
+Customer ID: 004
+  - First Seen: 00:00:00
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 5m 7s
+  - Table Usage:
+    * 2: 0m 30s (00:00:00 - 00:00:30)
+    * 2: 0m 10s (00:00:34 - 00:00:44)
+    * 0: 0m 12s (00:00:44 - 00:00:57)
+    * 2: 1m 19s (00:01:08 - 00:02:27)
+    * 2: 0m 8s (00:02:30 - 00:02:38)
+    * 0: 0m 47s (00:02:38 - 00:03:25)
+    * 2: 0m 22s (00:03:25 - 00:03:48)
+    * 2: 0m 10s (00:03:48 - 00:03:59)
+    * 2: 0m 16s (00:03:59 - 00:04:15)
+    * 2: 0m 5s (00:04:21 - 00:04:26)
+    * 2: 0m 26s (00:04:41 - 00:05:07)
+  - Status: Still inside
+
+Customer ID: 005
+  - First Seen: 00:00:00
+  - Last Seen: 00:00:35
+  - Total Appearance Time: 0m 35s
+  - Table Usage:
+    * 2: 0m 6s (00:00:01 - 00:00:07)
+    * 2: 0m 8s (00:00:19 - 00:00:28)
+    * 2: 0m 4s (00:00:29 - 00:00:33)
+    * 1: 0m 5s (00:00:35 - 00:00:40)
+  - Status: Left
+
+Customer ID: 006
+  - First Seen: 00:00:00
+  - Last Seen: 00:00:49
+  - Total Appearance Time: 0m 49s
+  - Table Usage:
+    * 3: 0m 5s (00:00:00 - 00:00:05)
+    * 3: 0m 4s (00:00:06 - 00:00:10)
+    * 3: 0m 20s (00:00:15 - 00:00:36)
+    * 1: 0m 7s (00:00:36 - 00:00:44)
+  - Status: Left
+
+Customer ID: 008
+  - First Seen: 00:00:00
+  - Last Seen: 00:00:47
+  - Total Appearance Time: 0m 46s
+  - Table Usage:
+    * 3: 0m 37s (00:00:00 - 00:00:37)
+    * 1: 0m 6s (00:00:38 - 00:00:45)
+  - Status: Left
+
+Customer ID: 007
+  - First Seen: 00:00:00
+  - Last Seen: 00:00:36
+  - Total Appearance Time: 0m 36s
+  - Table Usage:
+    * 3: 0m 9s (00:00:00 - 00:00:10)
+    * 3: 0m 30s (00:00:11 - 00:00:41)
+  - Status: Left
+
+Customer ID: 009
+  - First Seen: 00:00:00
+  - Last Seen: 00:00:39
+  - Total Appearance Time: 0m 38s
+  - Table Usage:
+    * 3: 0m 36s (00:00:00 - 00:00:36)
+    * 1: 0m 6s (00:00:37 - 00:00:43)
+  - Status: Left
+
+Customer ID: 010
+  - First Seen: 00:00:00
+  - Last Seen: 00:02:52
+  - Total Appearance Time: 2m 51s
+  - Table Usage:
+    * 2: 2m 28s (00:00:00 - 00:02:29)
+    * 2: 0m 23s (00:02:30 - 00:02:53)
+  - Status: Left
+
+Customer ID: 015
+  - First Seen: 00:00:36
+  - Last Seen: 00:02:31
+  - Total Appearance Time: 1m 55s
+  - Table Usage:
+    * 2: 0m 21s (00:00:36 - 00:00:57)
+    * 2: 0m 7s (00:00:57 - 00:01:04)
+    * 2: 0m 11s (00:01:05 - 00:01:16)
+    * 2: 0m 10s (00:01:35 - 00:01:45)
+    * 2: 0m 4s (00:01:48 - 00:01:52)
+    * 2: 0m 4s (00:01:57 - 00:02:01)
+    * 2: 0m 5s (00:02:05 - 00:02:11)
+    * 2: 0m 9s (00:02:12 - 00:02:22)
+    * 2: 0m 6s (00:02:22 - 00:02:29)
+    * 2: 0m 5s (00:02:31 - 00:02:36)
+  - Status: Left
+
+Customer ID: 017
+  - First Seen: 00:00:37
+  - Last Seen: 00:02:52
+  - Total Appearance Time: 2m 15s
+  - Table Usage:
+    * 1: 0m 11s (00:00:37 - 00:00:48)
+    * 3: 2m 1s (00:00:48 - 00:02:49)
+    * 3: 0m 5s (00:02:52 - 00:02:57)
+  - Status: Left
+
+Customer ID: 020
+  - First Seen: 00:00:40
+  - Last Seen: 00:01:07
+  - Total Appearance Time: 0m 27s
+  - Table Usage:
+    * 1: 0m 5s (00:00:54 - 00:01:00)
+    * 3: 0m 10s (00:01:02 - 00:01:12)
+  - Status: Left
+
+Customer ID: 021
+  - First Seen: 00:00:41
+  - Last Seen: 00:05:04
+  - Total Appearance Time: 4m 23s
+  - Table Usage:
+    * 0: 0m 12s (00:00:41 - 00:00:53)
+    * 1: 2m 17s (00:00:55 - 00:03:13)
+    * 2: 0m 4s (00:03:15 - 00:03:19)
+    * 2: 0m 9s (00:03:20 - 00:03:29)
+    * 2: 0m 33s (00:03:32 - 00:04:05)
+    * 2: 0m 5s (00:04:06 - 00:04:12)
+    * 2: 0m 4s (00:04:32 - 00:04:37)
+    * 2: 0m 4s (00:04:39 - 00:04:44)
+    * 2: 0m 17s (00:04:50 - 00:05:07)
+  - Status: Left
+
+Customer ID: 022
+  - First Seen: 00:00:42
+  - Last Seen: 00:01:19
+  - Total Appearance Time: 0m 37s
+  - Table Usage:
+    * 3: 0m 19s (00:00:51 - 00:01:10)
+    * 3: 0m 10s (00:01:14 - 00:01:24)
+  - Status: Left
+
+Customer ID: 026
+  - First Seen: 00:00:48
+  - Last Seen: 00:01:00
+  - Total Appearance Time: 0m 12s
+  - Table Usage:
+    * 1: 0m 10s (00:00:48 - 00:00:58)
+    * 3: 0m 7s (00:00:58 - 00:01:05)
+  - Status: Left
+
+Customer ID: 029
+  - First Seen: 00:00:55
+  - Last Seen: 00:01:00
+  - Total Appearance Time: 0m 4s
+  - Table Usage:
+    * 3: 0m 6s (00:00:56 - 00:01:02)
+  - Status: Left
+
+Customer ID: 030
+  - First Seen: 00:00:58
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 4m 9s
+  - Table Usage:
+    * 3: 3m 47s (00:01:01 - 00:04:48)
+    * 1: 0m 13s (00:04:49 - 00:05:02)
+  - Status: Still inside
+
+Customer ID: 034
+  - First Seen: 00:01:07
+  - Last Seen: 00:02:31
+  - Total Appearance Time: 1m 24s
+  - Table Usage:
+    * 3: 0m 42s (00:01:07 - 00:01:49)
+    * 3: 0m 45s (00:01:51 - 00:02:36)
+  - Status: Left
+
+Customer ID: 033
+  - First Seen: 00:01:08
+  - Last Seen: 00:01:08
+  - Total Appearance Time: 0m 0s
+  - Table Usage:
+    * 2: 0m 5s (00:01:08 - 00:01:13)
+  - Status: Left
+
+Customer ID: 036
+  - First Seen: 00:01:41
+  - Last Seen: 00:01:50
+  - Total Appearance Time: 0m 9s
+  - Table Usage:
+    * 2: 0m 5s (00:01:41 - 00:01:46)
+    * 2: 0m 5s (00:01:50 - 00:01:55)
+  - Status: Left
+
+Customer ID: 043
+  - First Seen: 00:02:11
+  - Last Seen: 00:02:43
+  - Total Appearance Time: 0m 32s
+  - Table Usage:
+    * 3: 0m 10s (00:02:11 - 00:02:21)
+    * 0: 0m 5s (00:02:35 - 00:02:41)
+    * 3: 0m 6s (00:02:41 - 00:02:47)
+  - Status: Left
+
+Customer ID: 045
+  - First Seen: 00:02:30
+  - Last Seen: 00:02:41
+  - Total Appearance Time: 0m 10s
+  - Table Usage:
+    * 3: 0m 10s (00:02:30 - 00:02:41)
+    * 0: 0m 5s (00:02:41 - 00:02:46)
+  - Status: Left
+
+Customer ID: 046
+  - First Seen: 00:02:32
+  - Last Seen: 00:02:39
+  - Total Appearance Time: 0m 6s
+  - Table Usage:
+    * 0: 0m 4s (00:02:34 - 00:02:39)
+    * 3: 0m 5s (00:02:39 - 00:02:44)
+  - Status: Left
+
+Customer ID: 049
+  - First Seen: 00:02:49
+  - Last Seen: 00:04:41
+  - Total Appearance Time: 1m 51s
+  - Table Usage:
+    * 3: 1m 30s (00:02:49 - 00:04:19)
+    * 3: 0m 6s (00:04:20 - 00:04:26)
+    * 3: 0m 6s (00:04:26 - 00:04:33)
+    * 3: 0m 12s (00:04:34 - 00:04:46)
+  - Status: Left
+
+Customer ID: 050
+  - First Seen: 00:02:52
+  - Last Seen: 00:03:41
+  - Total Appearance Time: 0m 49s
+  - Table Usage:
+    * 2: 0m 49s (00:02:56 - 00:03:46)
+  - Status: Left
+
+Customer ID: 052
+  - First Seen: 00:02:52
+  - Last Seen: 00:03:02
+  - Total Appearance Time: 0m 10s
+  - Table Usage:
+    * 3: 0m 10s (00:02:52 - 00:03:02)
+  - Status: Left
+
+Customer ID: 053
+  - First Seen: 00:02:56
+  - Last Seen: 00:03:37
+  - Total Appearance Time: 0m 40s
+  - Table Usage:
+    * 3: 0m 13s (00:02:56 - 00:03:10)
+    * 3: 0m 8s (00:03:22 - 00:03:30)
+    * 3: 0m 10s (00:03:31 - 00:03:42)
+  - Status: Left
+
+Customer ID: 054
+  - First Seen: 00:02:57
+  - Last Seen: 00:02:58
+  - Total Appearance Time: 0m 0s
+  - Table Usage:
+    * (No significant table usage)
+  - Status: Left
+
+Customer ID: 057
+  - First Seen: 00:03:01
+  - Last Seen: 00:03:52
+  - Total Appearance Time: 0m 51s
+  - Table Usage:
+    * 1: 0m 41s (00:03:15 - 00:03:56)
+  - Status: Left
+
+Customer ID: 059
+  - First Seen: 00:03:02
+  - Last Seen: 00:03:25
+  - Total Appearance Time: 0m 23s
+  - Table Usage:
+    * 2: 0m 8s (00:03:04 - 00:03:12)
+    * 0: 0m 9s (00:03:20 - 00:03:30)
+  - Status: Left
+
+Customer ID: 060
+  - First Seen: 00:03:03
+  - Last Seen: 00:03:03
+  - Total Appearance Time: 0m 0s
+  - Table Usage:
+    * 3: 0m 5s (00:03:03 - 00:03:08)
+  - Status: Left
+
+Customer ID: 061
+  - First Seen: 00:03:06
+  - Last Seen: 00:04:03
+  - Total Appearance Time: 0m 57s
+  - Table Usage:
+    * 0: 0m 10s (00:03:22 - 00:03:32)
+    * 0: 0m 5s (00:03:33 - 00:03:39)
+    * 0: 0m 5s (00:03:43 - 00:03:49)
+    * 0: 0m 12s (00:03:56 - 00:04:08)
+  - Status: Left
+
+Customer ID: 063
+  - First Seen: 00:03:12
+  - Last Seen: 00:03:16
+  - Total Appearance Time: 0m 4s
+  - Table Usage:
+    * (No significant table usage)
+  - Status: Left
+
+Customer ID: 067
+  - First Seen: 00:03:19
+  - Last Seen: 00:05:04
+  - Total Appearance Time: 1m 44s
+  - Table Usage:
+    * 3: 0m 45s (00:03:22 - 00:04:07)
+    * 3: 0m 24s (00:04:08 - 00:04:33)
+    * 3: 0m 10s (00:04:33 - 00:04:43)
+    * 1: 0m 9s (00:04:43 - 00:04:53)
+  - Status: Left
+
+Customer ID: 070
+  - First Seen: 00:03:23
+  - Last Seen: 00:03:33
+  - Total Appearance Time: 0m 10s
+  - Table Usage:
+    * 2: 0m 15s (00:03:23 - 00:03:38)
+  - Status: Left
+
+Customer ID: 071
+  - First Seen: 00:03:30
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 1m 37s
+  - Table Usage:
+    * 0: 0m 15s (00:03:32 - 00:03:47)
+    * 0: 0m 14s (00:03:47 - 00:04:02)
+    * 0: 1m 3s (00:04:04 - 00:05:07)
+  - Status: Still inside
+
+Customer ID: 076
+  - First Seen: 00:03:38
+  - Last Seen: 00:03:50
+  - Total Appearance Time: 0m 12s
+  - Table Usage:
+    * 2: 0m 7s (00:03:38 - 00:03:46)
+    * 2: 0m 7s (00:03:48 - 00:03:55)
+  - Status: Left
+
+Customer ID: 080
+  - First Seen: 00:03:45
+  - Last Seen: 00:03:47
+  - Total Appearance Time: 0m 2s
+  - Table Usage:
+    * 2: 0m 7s (00:03:45 - 00:03:52)
+  - Status: Left
+
+Customer ID: 081
+  - First Seen: 00:03:45
+  - Last Seen: 00:04:47
+  - Total Appearance Time: 1m 2s
+  - Table Usage:
+    * 3: 0m 6s (00:03:46 - 00:03:53)
+    * 3: 0m 12s (00:03:54 - 00:04:06)
+    * 3: 0m 39s (00:04:07 - 00:04:46)
+    * 1: 0m 5s (00:04:47 - 00:04:52)
+  - Status: Left
+
+Customer ID: 085
+  - First Seen: 00:03:50
+  - Last Seen: 00:03:50
+  - Total Appearance Time: 0m 0s
+  - Table Usage:
+    * 3: 0m 5s (00:03:50 - 00:03:55)
+  - Status: Left
+
+Customer ID: 087
+  - First Seen: 00:03:51
+  - Last Seen: 00:03:52
+  - Total Appearance Time: 0m 0s
+  - Table Usage:
+    * (No significant table usage)
+  - Status: Left
+
+Customer ID: 089
+  - First Seen: 00:03:51
+  - Last Seen: 00:03:51
+  - Total Appearance Time: 0m 0s
+  - Table Usage:
+    * (No significant table usage)
+  - Status: Left
+
+Customer ID: 090
+  - First Seen: 00:03:55
+  - Last Seen: 00:04:09
+  - Total Appearance Time: 0m 14s
+  - Table Usage:
+    * 3: 0m 18s (00:03:55 - 00:04:14)
+  - Status: Left
+
+Customer ID: 091
+  - First Seen: 00:03:58
+  - Last Seen: 00:04:19
+  - Total Appearance Time: 0m 20s
+  - Table Usage:
+    * 2: 0m 18s (00:03:58 - 00:04:17)
+    * 2: 0m 6s (00:04:17 - 00:04:24)
+  - Status: Left
+
+Customer ID: 092
+  - First Seen: 00:04:03
+  - Last Seen: 00:04:04
+  - Total Appearance Time: 0m 0s
+  - Table Usage:
+    * 2: 0m 5s (00:04:03 - 00:04:09)
+  - Status: Left
+
+Customer ID: 093
+  - First Seen: 00:04:04
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 1m 3s
+  - Table Usage:
+    * 2: 0m 12s (00:04:05 - 00:04:18)
+    * 2: 0m 15s (00:04:19 - 00:04:34)
+    * 2: 0m 16s (00:04:38 - 00:04:54)
+    * 3: 0m 5s (00:04:54 - 00:04:59)
+    * 2: 0m 4s (00:05:00 - 00:05:04)
+  - Status: Still inside
+
+Customer ID: 094
+  - First Seen: 00:04:05
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 1m 1s
+  - Table Usage:
+    * 2: 0m 11s (00:04:07 - 00:04:19)
+    * 2: 0m 9s (00:04:20 - 00:04:30)
+    * 2: 0m 7s (00:04:30 - 00:04:37)
+    * 2: 0m 25s (00:04:42 - 00:05:07)
+  - Status: Still inside
+
+Customer ID: 098
+  - First Seen: 00:04:15
+  - Last Seen: 00:04:48
+  - Total Appearance Time: 0m 32s
+  - Table Usage:
+    * 1: 0m 31s (00:04:18 - 00:04:49)
+  - Status: Left
+
+Customer ID: 102
+  - First Seen: 00:04:20
+  - Last Seen: 00:04:32
+  - Total Appearance Time: 0m 11s
+  - Table Usage:
+    * 2: 0m 11s (00:04:25 - 00:04:37)
+  - Status: Left
+
+Customer ID: 104
+  - First Seen: 00:04:33
+  - Last Seen: 00:04:41
+  - Total Appearance Time: 0m 7s
+  - Table Usage:
+    * 3: 0m 12s (00:04:33 - 00:04:46)
+  - Status: Left
+
+Customer ID: 106
+  - First Seen: 00:04:42
+  - Last Seen: 00:04:47
+  - Total Appearance Time: 0m 5s
+  - Table Usage:
+    * 1: 0m 6s (00:04:45 - 00:04:52)
+  - Status: Left
+
+Customer ID: 112
+  - First Seen: 00:04:44
+  - Last Seen: 00:04:47
+  - Total Appearance Time: 0m 3s
+  - Table Usage:
+    * (No significant table usage)
+  - Status: Left
+
+Customer ID: 113
+  - First Seen: 00:04:48
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 0m 19s
+  - Table Usage:
+    * 3: 0m 19s (00:04:48 - 00:05:07)
+  - Status: Still inside
+
+Customer ID: 114
+  - First Seen: 00:04:48
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 0m 19s
+  - Table Usage:
+    * (No significant table usage)
+  - Status: Still inside
+
+Customer ID: 116
+  - First Seen: 00:04:48
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 0m 19s
+  - Table Usage:
+    * 3: 0m 19s (00:04:48 - 00:05:07)
+  - Status: Still inside
+
+Customer ID: 115
+  - First Seen: 00:04:48
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 0m 19s
+  - Table Usage:
+    * 3: 0m 19s (00:04:48 - 00:05:07)
+  - Status: Still inside
+
+Customer ID: 117
+  - First Seen: 00:04:49
+  - Last Seen: 00:04:49
+  - Total Appearance Time: 0m 0s
+  - Table Usage:
+    * 2: 0m 5s (00:04:49 - 00:04:54)
+  - Status: Left
+
+Customer ID: 121
+  - First Seen: 00:04:56
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 0m 11s
+  - Table Usage:
+    * 2: 0m 6s (00:05:00 - 00:05:07)
+  - Status: Still inside
+
+Customer ID: 122
+  - First Seen: 00:05:02
+  - Last Seen: 00:05:03
+  - Total Appearance Time: 0m 0s
+  - Table Usage:
+    * 2: 0m 5s (00:05:02 - 00:05:07)
+  - Status: Left
+
+Customer ID: 123
+  - First Seen: 00:05:03
+  - Last Seen: 00:05:07
+  - Total Appearance Time: 0m 4s
+  - Table Usage:
+    * (No significant table usage)
+  - Status: Still inside
+
+--- TABLE USAGE STATISTICS --
+0: Total 6m 51s (Usage: %133)
+1: Total 5m 47s (Usage: %112)
+2: Total 17m 32s (Usage: %341)
+3: Total 20m 23s (Usage: %397)
+
+--- SUMMARY --
+Total Detected Customers: 61
+Active Customers: 11
+Average Stay Duration: 0m 53s
+Busiest Table: 3

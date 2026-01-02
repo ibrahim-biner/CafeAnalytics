@@ -1,9 +1,5 @@
 
-data/
-*.mp4
-*.avi
-*.jpg
-*.png
+outputs/*.mp4
 
 
 __pycache__/
@@ -15,4 +11,3 @@ venv/
 .idea/
 .DS_Store
 
-outputs/
