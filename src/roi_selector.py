@@ -16,7 +16,7 @@ class CafeROISelector:
             orig_x = int(x / self.scale)
             orig_y = int(y / self.scale)
             self.points.append((orig_x, orig_y))
-            print(f"Nokta eklendi (Orijinal Koordinat): ({orig_x}, {orig_y})")
+            print(f"Point added (original coordinates): ({orig_x}, {orig_y})")
 
     def run(self):
         cap = cv2.VideoCapture(self.video_path)
@@ -24,7 +24,7 @@ class CafeROISelector:
         cap.release()
 
         if not ret:
-            print("Hata: Video dosyası okunamadı!")
+            print("Error: Video file could not be read")
             return
 
         orig_h, orig_w = frame.shape[:2]
@@ -33,13 +33,13 @@ class CafeROISelector:
         
         display_frame_base = cv2.resize(frame, (self.target_width, target_height))
 
-        cv2.namedWindow("Masa Isaretleyici")
-        cv2.setMouseCallback("Masa Isaretleyici", self._mouse_callback)
+        cv2.namedWindow("Table marker")
+        cv2.setMouseCallback("Table marker", self._mouse_callback)
 
-        print(f"\n--- Görüntü %{self.scale*100:.1f} oranında küçültüldü ---")
-        print("- Masanın köşelerine tıkla.")
-        print("- Bitirmek için 'N' tuşuna basıp isim ver.")
-        print("- Kaydetmek için 'S', temizlemek için 'C'.")
+        print(f"\n--- Image scaled down to %{self.scale*100:.1f} ---")
+        print("- Click on the table corners.")
+        print("- Press 'N' to finish and name the table.")
+        print("- Press 'S' to save, 'C' to clear.")
 
         while True:
             temp_img = display_frame_base.copy()
@@ -57,20 +57,20 @@ class CafeROISelector:
                     cv2.line(temp_img, scaled_pts[i], scaled_pts[(i+1)%len(scaled_pts)], (255, 0, 0), 2)
                 cv2.putText(temp_img, name, scaled_pts[0], cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
 
-            cv2.imshow("Masa Isaretleyici", temp_img)
+            cv2.imshow("Table marker", temp_img)
             key = cv2.waitKey(1) & 0xFF
 
             if key == ord("n"):
                 if len(self.points) >= 3:
-                    name = input(f"Masa ismi (Mevcut: {len(self.rois)}): ")
+                    name = input(f"Table name (Current: {len(self.rois)}): ")
                     self.rois[name] = self.points
                     self.points = []
-                else: print("En az 3 nokta!")
+                else: print("Need at least 3 points to define a table ROI.")
 
             elif key == ord("s"):
                 with open(self.output_config, "w") as f:
                     json.dump(self.rois, f, indent=4)
-                print("Kaydedildi!")
+                print("Saved!")
                 break
             
             elif key == ord("c"): self.points = []

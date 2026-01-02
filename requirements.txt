@@ -1,0 +1,12 @@
+# Required Packages
+# Core engine for YOLOv11-Pose and ByteTrack
+ultralytics
+
+# Image and video processing
+opencv-python
+
+# Analytical dashboard and reporting charts
+matplotlib
+
+# Numerical operations and coordinate math
+numpy
