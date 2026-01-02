@@ -236,11 +236,11 @@ The system provides a comprehensive visual and data-driven suite to validate the
 
 ### 1. ROI Selection Interface
 The initial configuration step where table boundaries are manually mapped using the custom GUI to account for camera perspective distortion.
-![ROI Selection Interface](src/roi_selection_example.png)
+![ROI Selection Interface](/roi_selection_example.png)
 
 ### 2. Real-Time Video Processing
 The live analysis engine in action, displaying unique tracking IDs, pose-based torso reference points (yellow dots), and real-time occupancy labels.
-![Real-Time Processing](outputs/processing_example.png)
+![Real-Time Processing](outputs/processing_screen.png)
 
 ### 3. Spatial Heatmap
 A density map generated at the conclusion of the video using the `JET` colormap. Red zones indicate high-traffic seating areas, while Blue zones represent low-activity regions.
